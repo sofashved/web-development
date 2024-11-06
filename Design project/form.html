@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Заказать дизайн</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<nav>
+    <ul>
+        <li><a href="index.html">Главная</a></li>
+        <li><a href="examples.html">Примеры работ</a></li>
+        <li><a href="meme.html">Мем</a></li>
+        <li><a href="form.html#order" class="bold"><b>Заказать дизайн</b></a></li>
+        <li><a href="https://t.me/dsgn_interior" target="_blank"><img src="pictures/telegram.png"></a></li>
+    </ul>
+</nav>
+
+<h1  id="order">Готовы к встрече с ремонтом мечты?</h1>
+<p>Оставьте заявку и мы с Вами свяжемся!</p>
+
+<form action="https://www.bing.com/search?" id="UserEnter" name="UserEnter" target="_blank">
+    <fieldset>
+        <legend>Как Вас зовут?</legend>
+        <input type="text" id="name" name="name" value="Мария" required>
+    </fieldset>
+
+    <fieldset>
+        <legend>Ваш номер телефона</legend>
+        <input type="tel" pattern="[0-9]{11}" value="88005553535" required>
+    </fieldset>
+
+    <fieldset>
+        <legend>Сколько комнат в Вашей квартире?</legend>
+        <input type="number" id="rooms" name="rooms" min="1" value="3">
+    </fieldset>
+
+    <fieldset>
+        <legend>Отметьте, пожалуйста, предпочитаемые стили</legend>
+        <input type="checkbox" id="first_style">
+        <label for="first_style">Скандинавский</label>
+        <input type="checkbox" id="second_style" checked>
+        <label for="second_style">Лофт</label>
+        <input type="checkbox" id="third_style" checked>
+        <label for="third_style">Минимализм</label>
+        <input type="checkbox" id="fourth_style">
+        <label for="fourth_style">Эко</label>
+        <input type="checkbox" id="fifth_style">
+        <label for="fifth_style">Хай-тек</label>
+    </fieldset>
+
+    <fieldset>
+        <legend>Как с вами лучше связаться?</legend>
+        <input type="radio" id="call" name="connection" value="Позвонить" checked>
+        <label for="call">Позвонить</label>
+        <input type="radio" id="message" name="connection" value="Написать в мессенджер">
+        <label for="message">Написать в мессенджер</label>
+    </fieldset>
+
+    <fieldset>
+        <legend>Когда с Вами связаться?</legend>
+        <input type="date" value="2024-11-06">
+    </fieldset>
+
+    <fieldset>
+        <legend>Введите промокод</legend>
+        <input type="password" value="skidka">
+    </fieldset>
+
+    <input type="hidden"  name="q" value="search">
+    <input type="hidden" name="function"  value="page">
+    <input type="hidden" name="page_id"  value="3">
+
+    <input type="Reset"  name="Reset"  value="Обновить">
+    <input type="Submit" name="submit"  value="Отправить">
+
+</form>
+</body>
+</html>
