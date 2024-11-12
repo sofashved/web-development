@@ -45,6 +45,7 @@ nav a:hover {
 
 .bold {
     color: yellow;
+    font-weight: bold
 }
 
 .insidenavigation {
@@ -113,6 +114,91 @@ h3 {
     height: 800px
 }
 
+/* Паспорт */
+
+#passbg {
+    height: 734px;
+    background-image: url(pictures/passbg.jpg);
+    background-repeat: no-repeat;
+    padding-top: 60px;
+}
+
+#passbg p {
+    margin-top: 1em;
+    margin-bottom: 0.5em
+}
+
+#vydan {
+    padding-left: 150px
+}
+
+#code {
+    padding-left: 350px;
+    padding-top: 50px
+}
+
+#datavydachi {
+    float: left;
+    padding-top: 40px;
+    padding-left: 120px
+}
+
+#podpis1 {
+    padding-top: 30px;
+    padding-left: 40px
+}
+
+#podpis2 {
+    padding-left: 130px
+}
+
+#photo {
+    float: left;
+    padding-top: 152px;
+    padding-left: 23px
+}
+
+#paslastname {
+    float: left;
+    padding-top: 100px;
+    padding-left: 130px
+}
+
+#pasname {
+    float: left;
+    padding-top: 155px;
+    margin-left: -80px
+}
+
+#pasfathersname {
+    float: left;
+    padding-top: 180px;
+    margin-left: -100px
+}
+
+#gender {
+    float: left;
+    padding-top: 210px;
+    margin-left: -175px
+}
+
+#birthday {
+    float: left;
+    padding-top: 210px;
+    margin-left: -35px
+}
+
+#birthplace {
+    float: left;
+    padding-top: 235px;
+    margin-left: -100px
+}
+
+#translate {
+    margin-left: 150px;
+    margin-top: 400px
+}
+
 /* Другое */
 .Anna {
     height: 500px;
@@ -141,4 +227,13 @@ li {
 
 .table{
     padding-top: 100px
+}
+
+.task{
+    font-size: 18px;
+    padding-left: 20px
+}
+
+form ul{
+    list-style: none;
 }
